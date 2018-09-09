@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-android-device-information" version="1.0.0">
+    <name>AndroidDevice</name>
+    <description>Cordova plugin to get specific Android device information</description>
+    <author>Tim Brust</author>
+    <license>MIT</license>
+    <keywords>cordova,android,rom,detection,device</keywords>
+
+    <engines>
+        <engine name="cordova" version=">=7.0.0" />
+        <engine name="cordova-android" version=">=6.4.0" />
+    </engines>
+
+    <js-module src="dist/www/android-device-information.js" name="AndroidDeviceInformation">
+        <clobbers target="cordova.plugins.androidDeviceInformation" />
+    </js-module>
+
+    <platform name="android">
+      <config-file target="res/xml/config.xml" parent="/*">
+        <feature name="AndroidDeviceInformation">
+          <param name="android-package" value="de.dustplanet.cordova.AndroidDeviceInformation" />
+        </feature>
+      </config-file>
+
+        <source-file src="src/android/AndroidDeviceInformation.kt" target-dir="app/src/main/kotlin/de/dustplanet/cordova" />
+        <framework src="src/android/enable-kotlin.gradle" custom="true" type="gradleReference"/>
+    </platform>
+</plugin>

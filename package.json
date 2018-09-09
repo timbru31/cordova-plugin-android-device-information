@@ -1,0 +1,46 @@
+{
+  "name": "cordova-plugin-android-device-information",
+  "version": "1.0.0",
+  "description": "Cordova plugin to get specific Android device information",
+  "author": "Tim Brust <github@timbrust.de>",
+  "license": "MIT",
+  "repository": "timbru31/cordova-plugin-android-device-information",
+  "bugs": {
+    "url": "https://github.com/timbru31/cordova-plugin-android-device-information/issues"
+  },
+  "scripts": {
+    "lint": "tslint -c tslint.json 'www/**/*.ts'",
+    "build": "rm -rf dist && tsc",
+    "prerelease": "npm run build",
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "@types/cordova": "^0.0.34",
+    "standard-version": "^4.4.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
+  },
+  "cordova": {
+    "id": "cordova-plugin-android-device-information",
+    "platforms": [
+      "android"
+    ]
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "1.0.0": {
+        "cordova": ">= 7.0.0",
+        "cordova-android": ">=6.4.0"
+      }
+    }
+  },
+  "keywords": [
+    "cordova",
+    "cordova-plugin",
+    "ecosystem:cordova",
+    "cordova-android",
+    "rom",
+    "detection",
+    "device"
+  ]
+}
