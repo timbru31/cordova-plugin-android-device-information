@@ -1,0 +1,20 @@
+dist: trusty
+
+language: node_js
+node_js:
+  - lts/*
+cache:
+  directories:
+    - "node_modules"
+
+before_install:
+  - npm install -g greenkeeper-lockfile
+
+before_script:
+  - greenkeeper-lockfile-update
+
+script:
+  - npm run lint
+
+after_script:
+  - greenkeeper-lockfile-upload
