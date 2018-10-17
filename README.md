@@ -6,7 +6,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/timbru31/cordova-plugin-android-device-information/badge.svg)](https://snyk.io/test/github/timbru31/cordova-plugin-android-device-information)
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![Greenkeeper badge](https://badges.greenkeeper.io/timbru31/cordova-plugin-android-device-information.svg)](https://greenkeeper.io/)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=timbru31/cordova-plugin-android-device-information)](https://dependabot.com)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![npm](https://img.shields.io/npm/v/cordova-plugin-android-device-information.svg)](https://www.npmjs.com/package/cordova-plugin-android-device-information)
 
