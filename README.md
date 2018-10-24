@@ -26,7 +26,7 @@
 
 ### Usage
 
-#### Get one of the following properties (replace _X_)
+#### Get one of the following properties (replace _\_X\__)
 
 * getProduct
 * getOSVersion
