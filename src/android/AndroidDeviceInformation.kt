@@ -108,7 +108,7 @@ class AndroidDeviceInformation : CordovaPlugin() {
     }
 
     private fun getDisplay(callbackContext: CallbackContext) {
-        callbackContext.success(android.os.Build.HARDWARE)
+        callbackContext.success(android.os.Build.DISPLAY)
     }
 
     private fun getHardware(callbackContext: CallbackContext) {
