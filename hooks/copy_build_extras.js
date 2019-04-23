@@ -2,7 +2,7 @@
 
 var fs = require('fs');
 
-var pluginLocation = 'plugins/cordova-plugin-lottie-splashscreen/hooks/android';
+var pluginLocation = 'plugins/android-device-information/hooks';
 
 var buildGradle = fs.readFileSync(`platforms/android/build.gradle`);
 if (buildGradle.indexOf('classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"') === -1) {
