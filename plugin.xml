@@ -24,6 +24,7 @@
 
         <source-file src="src/android/AndroidDeviceInformation.kt" target-dir="app/src/main/kotlin/de/dustplanet/cordova" />
         <framework src="src/android/build-extras.gradle" custom="true" type="gradleReference"/>
-        <hook type="after_plugin_add" src="hooks/copy_build_extras.js" />
+        <hook type="after_platform_add" src="hooks/copy_build_extras.js" />
+        <hook type="after_plugin_add" src="hooks/android/copy_build_extras.js" />
     </platform>
 </plugin>

@@ -16,9 +16,9 @@
   },
   "devDependencies": {
     "@types/cordova": "^0.0.34",
-    "standard-version": "^5.0.0",
-    "tslint": "^5.12.1",
-    "typescript": "^3.2.4"
+    "standard-version": "^5.0.2",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
   },
   "cordova": {
     "id": "cordova-plugin-android-device-information",
