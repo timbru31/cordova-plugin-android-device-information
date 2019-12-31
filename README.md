@@ -37,7 +37,7 @@
 -   getSecurityPatch
 -   getModel
 -   getDevice
--   getSDK (return a number)
+-   getSDK (returns a number)
 -   getManufacturer
 -   getBoard
 -   getType
