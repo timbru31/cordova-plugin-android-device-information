@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-android-device-information",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Cordova plugin to get specific Android device information",
   "author": "Tim Brust <github@timbrust.de>",
   "license": "MIT",
