@@ -1,6 +1,7 @@
 # cordova-plugin-android-device-information
 
-[![Build Status](https://travis-ci.org/timbru31/cordova-plugin-android-device-information.svg?branch=master)](https://travis-ci.org/timbru31/cordova-plugin-android-device-information)
+[![Linting](https://github.com/timbru31/cordova-plugin-android-device-information/workflows/Linting/badge.svg)](https://github.com/timbru31/cordova-plugin-android-device-information/actions?query=workflow%3ALinting)
+[![npm audit](https://github.com/timbru31/cordova-plugin-android-device-information/workflows/Security/badge.svg)](https://github.com/timbru31/cordova-plugin-android-device-information/actions?query=workflow%3ASecurity)
 
 [![Dependency Status](https://david-dm.org/timbru31/cordova-plugin-android-device-information.svg)](https://david-dm.org/timbru31/cordova-plugin-android-device-information)
 [![devDependency Status](https://david-dm.org/timbru31/cordova-plugin-android-device-information/dev-status.svg)](https://david-dm.org/timbru31/cordova-plugin-android-device-information#info=devDependencies)
@@ -47,7 +48,7 @@
 -   getBrand
 
 ```js
-cordova.plugins.androidDeviceInformation.get_X_().then(value => {
+cordova.plugins.androidDeviceInformation.get_X_().then((value) => {
     // returns the value
 });
 ```
