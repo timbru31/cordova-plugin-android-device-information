@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/timbru31/cordova-plugin-android-device-information/compare/v1.1.2...v2.0.0) (2020-08-01)
+
+### ⚠ BREAKING CHANGES
+
+-   use built in Kotlin support, requires cordova-android >=9
+
+### Features
+
+-   use built in Kotlin support, requires cordova-android >=9 ([5a22276](https://github.com/timbru31/cordova-plugin-android-device-information/commit/5a22276b1faad8516ede1df2090a79f0e71181b6))
+
+### Build System
+
+-   [security] re-build lockfiles ([2fb8cf9](https://github.com/timbru31/cordova-plugin-android-device-information/commit/2fb8cf94539c5b7d0f177ffae5cf8c010d9c3b50))
+-   **deps:** upgrades Kotlin to v1.3.72 ([c5d38c9](https://github.com/timbru31/cordova-plugin-android-device-information/commit/c5d38c9ae7ebdaff40dc49aa019aff6b6aa47529))
+-   **deps-dev:** bump prettier from 2.0.2 to 2.0.4 ([4851b12](https://github.com/timbru31/cordova-plugin-android-device-information/commit/4851b1257ab0a6ee4b4a6a401fd99fc80bef612c))
+-   **deps-dev:** bump prettier from 2.0.4 to 2.0.5 ([61fcb24](https://github.com/timbru31/cordova-plugin-android-device-information/commit/61fcb246465d82b948e0726ffe629030dab4c2a0))
+-   **deps-dev:** bump replace from 1.1.5 to 1.2.0 ([2f886f3](https://github.com/timbru31/cordova-plugin-android-device-information/commit/2f886f3a0a08714c7140ba0b90336ff2f6fc5051))
+-   **deps-dev:** bump standard-version from 7.1.0 to 8.0.0 ([#61](https://github.com/timbru31/cordova-plugin-android-device-information/issues/61)) ([cda5013](https://github.com/timbru31/cordova-plugin-android-device-information/commit/cda501320d29accb619fed31ed01aeacc449b24c))
+-   **deps-dev:** bump standard-version from 8.0.0 to 8.0.1 ([883aaa3](https://github.com/timbru31/cordova-plugin-android-device-information/commit/883aaa3ff241bb4f7725e9a8384fe71fd7274a5b))
+-   **deps-dev:** bump standard-version from 8.0.1 to 8.0.2 ([211071c](https://github.com/timbru31/cordova-plugin-android-device-information/commit/211071ce8352ef3075228666d7bbec99d5e457e0))
+-   **deps-dev:** bump tslint from 6.1.1 to 6.1.2 ([0c05837](https://github.com/timbru31/cordova-plugin-android-device-information/commit/0c05837f142bdc046c1373311e4acda95ac629fc))
+-   **deps-dev:** bump tslint from 6.1.2 to 6.1.3 ([#69](https://github.com/timbru31/cordova-plugin-android-device-information/issues/69)) ([e767624](https://github.com/timbru31/cordova-plugin-android-device-information/commit/e7676244337f601f72c27974a95cc01e8e0798b0))
+-   **deps-dev:** bump typescript from 3.8.3 to 3.9.2 ([#62](https://github.com/timbru31/cordova-plugin-android-device-information/issues/62)) ([9bb7da8](https://github.com/timbru31/cordova-plugin-android-device-information/commit/9bb7da8ffe8e3b54402a0a9bfc22c84519ba523e))
+-   **deps-dev:** bump typescript from 3.9.2 to 3.9.3 ([#63](https://github.com/timbru31/cordova-plugin-android-device-information/issues/63)) ([3704741](https://github.com/timbru31/cordova-plugin-android-device-information/commit/370474195cf85b4edaa034460944ca2eed092cb1))
+-   **deps-dev:** bump typescript from 3.9.3 to 3.9.5 ([#64](https://github.com/timbru31/cordova-plugin-android-device-information/issues/64)) ([c9ce712](https://github.com/timbru31/cordova-plugin-android-device-information/commit/c9ce7121da3249200bbe13778c9e6d7c5282f13d))
+-   **deps-dev:** bump typescript from 3.9.5 to 3.9.6 ([#65](https://github.com/timbru31/cordova-plugin-android-device-information/issues/65)) ([96fcbc3](https://github.com/timbru31/cordova-plugin-android-device-information/commit/96fcbc30ce495a2fc7fbb87e13b544dae358e6ce))
+-   **deps-dev:** bump typescript from 3.9.6 to 3.9.7 ([03d269b](https://github.com/timbru31/cordova-plugin-android-device-information/commit/03d269b923d43b54a444d27790478e5b3d85f32f))
+-   commit and sign all files ([92dba27](https://github.com/timbru31/cordova-plugin-android-device-information/commit/92dba27a1f17ff7fac0ba6007686929744341c95))
+-   optimizes npmignore file ([e3dcd96](https://github.com/timbru31/cordova-plugin-android-device-information/commit/e3dcd96f6c216cd28554534e572eb107ffb67234))
+
 ### [1.1.2](https://github.com/timbru31/cordova-plugin-android-device-information/compare/v1.1.1...v1.1.2) (2020-04-02)
 
 ### Bug Fixes
