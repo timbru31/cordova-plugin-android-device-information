@@ -1,0 +1,14 @@
+on: [push, pull_request]
+
+name: Linting
+
+jobs:
+  tsLint:
+    name: Runs TSLint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: |
+          npm ci
+          npm run lint
