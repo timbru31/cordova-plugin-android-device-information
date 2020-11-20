@@ -12,7 +12,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![npm](https://img.shields.io/npm/v/cordova-plugin-android-device-information.svg)](https://www.npmjs.com/package/cordova-plugin-android-device-information)
 
-#### Cordova plugin to get specific Android device information
+#### Apache Cordova plugin to get specific Android device information
 
 ### Supported platforms
 
