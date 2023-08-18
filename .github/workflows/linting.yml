@@ -1,14 +1,46 @@
-on: [push, pull_request]
-
 name: Linting
 
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
 jobs:
-  tsLint:
-    name: Runs TSLint
-    runs-on: ubuntu-latest
+  build:
+    runs-on: macos-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3.8.0
-      - run: |
+      - uses: actions/checkout@v3.5.3
+
+      - uses: actions/setup-node@v3.8.1
+        with:
+          node-version: 18
+
+      - name: Environment Information
+        run: |
+          node --version
+          npm --version
+
+      - name: Setup
+        run: |
+          brew install ktlint
+          ktlint --version
           npm ci
-          npm run lint
+
+      - name: Linting
+        run: npm run lint
+
+  auto-merge:
+    runs-on: ubuntu-latest
+    needs: build
+
+    permissions:
+      pull-requests: write
+      contents: write
+
+    steps:
+      - name: Automatically merge dependabot upgrades
+        uses: fastify/github-action-merge-dependabot@v3.9.0
+        with:
+          target: minor
