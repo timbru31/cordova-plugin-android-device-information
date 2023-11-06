@@ -5,7 +5,11 @@ import org.apache.cordova.CordovaPlugin
 import org.json.JSONArray
 
 class AndroidDeviceInformation : CordovaPlugin() {
-    override fun execute(action: String?, args: JSONArray?, callbackContext: CallbackContext?): Boolean {
+    override fun execute(
+        action: String?,
+        args: JSONArray?,
+        callbackContext: CallbackContext?,
+    ): Boolean {
         when {
             action == "getProduct" -> {
                 getProduct(callbackContext!!)
