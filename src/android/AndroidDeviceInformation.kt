@@ -15,54 +15,67 @@ class AndroidDeviceInformation : CordovaPlugin() {
                 getProduct(callbackContext!!)
                 return true
             }
+
             action == "getOSVersion" -> {
                 getOSVersion(callbackContext!!)
                 return true
             }
+
             action == "getRelease" -> {
                 getRelease(callbackContext!!)
                 return true
             }
+
             action == "getSecurityPatch" -> {
                 getSecurityPatch(callbackContext!!)
                 return true
             }
+
             action == "getModel" -> {
                 getModel(callbackContext!!)
                 return true
             }
+
             action == "getDevice" -> {
                 getDevice(callbackContext!!)
                 return true
             }
+
             action == "getSDK" -> {
                 getSDK(callbackContext!!)
                 return true
             }
+
             action == "getManufacturer" -> {
                 getManufacturer(callbackContext!!)
                 return true
             }
+
             action == "getBoard" -> {
                 getBoard(callbackContext!!)
                 return true
             }
+
             action == "getType" -> {
                 getType(callbackContext!!)
                 return true
             }
+
             action == "getDisplay" -> {
                 getDisplay(callbackContext!!)
                 return true
             }
+
             action == "getHardware" -> {
                 getHardware(callbackContext!!)
                 return true
             }
+
             action == "getHost" -> {
                 getHost(callbackContext!!)
                 return true
             }
+
             action == "getBrand" -> {
                 getBrand(callbackContext!!)
                 return true
