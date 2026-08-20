@@ -11,9 +11,9 @@ jobs:
     runs-on: macos-latest
 
     steps:
-      - uses: actions/checkout@v6.0.2
+      - uses: actions/checkout@v6.0.3
 
-      - uses: actions/setup-node@v6.3.0
+      - uses: actions/setup-node@v6.4.0
         with:
           node-version: 20
 
@@ -41,6 +41,6 @@ jobs:
 
     steps:
       - name: Automatically merge dependabot upgrades
-        uses: fastify/github-action-merge-dependabot@v3.11.2
+        uses: fastify/github-action-merge-dependabot@v3.15.0
         with:
           target: minor
